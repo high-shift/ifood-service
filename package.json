@@ -1,0 +1,33 @@
+{
+  "name": "ifood-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "start:dev": "nodemon --files src/index.ts",
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-shift/ifood-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/high-shift/ifood-service/issues"
+  },
+  "homepage": "https://github.com/high-shift/ifood-service#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "rabbitmq-client": "git+ssh://git@github.com:high-shift/rabbitmq-client.git"
+  }
+}
