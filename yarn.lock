@@ -330,6 +330,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
@@ -708,6 +713,11 @@ pupa@^2.1.1:
   dependencies:
     escape-goat "^2.0.0"
 
+querystring@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
+  integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
+
 querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
@@ -715,7 +725,7 @@ querystringify@^2.1.1:
 
 "rabbitmq-client@git+ssh://git@github.com:high-shift/rabbitmq-client.git":
   version "2.0.1"
-  resolved "git+ssh://git@github.com:high-shift/rabbitmq-client.git#c75afbce4f550b9df6fd4d89372166e78c55310a"
+  resolved "git+ssh://git@github.com:high-shift/rabbitmq-client.git#5d26f40a533c531fbb0684213c9b5916a5a5f625"
   dependencies:
     amqplib "^0.5.3"
     verror "^1.10.0"

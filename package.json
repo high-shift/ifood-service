@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "querystring": "^0.2.1",
     "rabbitmq-client": "git+ssh://git@github.com:high-shift/rabbitmq-client.git"
   }
 }
